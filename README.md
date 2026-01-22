@@ -4,11 +4,11 @@
 
 > *"A Minimalist Weather Assistant Android App"
 
-**Developed by:** *Mahi*
-**Platform:** *Android*
-**Language:** *Java*
-**Backend:** *Node.js (Webhook)*
-**API:** *OpenWeather API*
+**-Developed by:** *Mahi*
+**-Platform:** *Android*
+**-Language:** *Java*
+**-Backend:** *Node.js (Webhook)*
+**-API:** *OpenWeather API*
 ---
 ##📱 Project Overview
 
