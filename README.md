@@ -1,137 +1,139 @@
-Weather.ai
+<div align="center">
+  Weather.ai
+</div>
 
-A Minimalist Weather Assistant Android App
+> *"A Minimalist Weather Assistant Android App"
 
-Developed by: Mahi
-Platform: Android
-Language: Java
-Backend: Node.js (Webhook)
-API: OpenWeather API
-
-📱 Project Overview
+##Developed by: Mahi
+##Platform: Android
+##Language: Java
+##Backend: Node.js (Webhook)
+##API: OpenWeather API
+---
+##📱 Project Overview
 
 Weather.ai is a lightweight Android application that provides real-time weather information for any city entered by the user. The app focuses on simplicity, elegance, and responsiveness, delivering accurate weather data through a clean and visually refined interface.
 
 The project demonstrates end-to-end mobile development, including Android UI design, API integration, backend communication, and deployment.
+---
+##✨ Features
 
-✨ Features
+•Real-time weather updates by city name
 
-Real-time weather updates by city name
+•Displays:
 
-Displays:
+(i)Temperature (°C)
 
-Temperature (°C)
+(ii)Weather condition (description)
 
-Weather condition (description)
+(iii)Feels-like temperature
 
-Feels-like temperature
+(iv)Humidity
 
-Humidity
+(v)Wind speed
 
-Wind speed
+•Elegant UI with:
 
-Elegant UI with:
+(i)Glassmorphic input design
 
-Glassmorphic input design
+(ii)Gold and blue aesthetic theme
 
-Gold and blue aesthetic theme
+(iii)Animated twinkling stars background
 
-Animated twinkling stars background
+(iv)Smooth fade-in weather result animation
 
-Smooth fade-in weather result animation
+•Custom app icon
 
-Custom app icon
+•“About / Copyright” dialog integrated into the UI
 
-“About / Copyright” dialog integrated into the UI
+•Asynchronous network communication with robust timeout handling and retry-friendly design.
 
-Fast and responsive network handling
+##🛠️ Tech Stack
+#Frontend (Android)
 
-🛠️ Tech Stack
-Frontend (Android)
+•Java
 
-Java
+•Android SDK
 
-Android SDK
+•ConstraintLayout
 
-ConstraintLayout
+•Custom XML drawables
 
-Custom XML drawables
+•Animations (XML-based)
 
-Animations (XML-based)
+#Networking
 
-Networking
+•OkHttp (for HTTP requests)
 
-OkHttp (for HTTP requests)
+•JSON handling with org.json
 
-JSON handling with org.json
+#Backend
 
-Backend
+•Node.js
 
-Node.js
+•Express.js
 
-Express.js
+•Axios
 
-Axios
+#External API
 
-External API
+•OpenWeather API
 
-OpenWeather API
+##🔗 Architecture Overview
 
-🔗 Architecture Overview
+1.User Input
 
-User Input
+ •User enters a city name in the Android app.
 
-User enters a city name in the Android app.
+2.Android App
 
-Android App
+ •Sends a POST request to a backend webhook using OkHttp.
 
-Sends a POST request to a backend webhook using OkHttp.
+ •Handles asynchronous responses safely on the UI thread.
 
-Handles asynchronous responses safely on the UI thread.
+3.Backend Webhook
 
-Backend Webhook
+ •Receives the request.
 
-Receives the request.
+ •Extracts the city parameter.
 
-Extracts the city parameter.
+ •Fetches real-time weather data from OpenWeather API.
 
-Fetches real-time weather data from OpenWeather API.
+ •Sends a formatted response back to the app.
 
-Sends a formatted response back to the app.
+4.UI Update
 
-UI Update
+ •Weather data is displayed with a fade-in animation for better user experience.
 
-Weather data is displayed with a fade-in animation for better user experience.
+##🎨 UI & UX Design
 
-🎨 UI & UX Design
+•Theme: Night sky inspired blue with gold accents
 
-Theme: Night sky inspired blue with gold accents
+•Input: Minimal, non-box styled glassmorphic city input
 
-Input: Minimal, non-box styled glassmorphic city input
+•Button: Custom gold glow styling
 
-Button: Custom gold glow styling
+•Result Display: Oval glass-effect container that appears only when data is available
 
-Result Display: Oval glass-effect container that appears only when data is available
+•Background: Animated twinkling stars for visual depth
 
-Background: Animated twinkling stars for visual depth
+•Typography: Elegant serif and cursive fonts for a premium feel
 
-Typography: Elegant serif and cursive fonts for a premium feel
+##🔒 Error Handling
 
-🔒 Error Handling
+•Network timeouts handled via OkHttp configuration
 
-Network timeouts handled via OkHttp configuration
+•Graceful error messages for:
 
-Graceful error messages for:
+(i)Network failures
 
-Network failures
+(ii)Invalid city names
 
-Invalid city names
+(iii)Backend errors
 
-Backend errors
+•UI remains stable even during failed requests
 
-UI remains stable even during failed requests
-
-🚀 Deployment
+##🚀 Deployment
 
 Backend deployed using Render
 
@@ -143,7 +145,7 @@ Physical Android device
 
 App icon and branding finalized for real-device use
 
-📈 Learning Outcomes
+##📈 Learning Outcomes
 
 This project demonstrates:
 
@@ -161,7 +163,7 @@ Debugging real-world integration issues
 
 End-to-end application ownership
 
-📌 Future Enhancements
+##📌 Future Enhancements
 
 Location-based weather (GPS)
 
@@ -172,8 +174,8 @@ Light/Dark mode toggle
 Offline caching
 
 Multi-language support
-
 © Copyright
-
+© 2025 Mahi.
+All rights reserved.
 © 2025 Mahi.
 All rights reserved.
