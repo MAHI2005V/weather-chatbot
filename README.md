@@ -1,14 +1,14 @@
 <div align="center">
-  Weather.ai
+ <b><h1>Weather.ai</h1></b>
 </div>
 
 > *"A Minimalist Weather Assistant Android App"
 
-##Developed by: Mahi
-##Platform: Android
-##Language: Java
-##Backend: Node.js (Webhook)
-##API: OpenWeather API
+**Developed by:** *Mahi*
+**Platform:** *Android*
+**Language:** *Java*
+**Backend:** *Node.js (Webhook)*
+**API:** *OpenWeather API*
 ---
 ##📱 Project Overview
 
@@ -21,25 +21,16 @@ The project demonstrates end-to-end mobile development, including Android UI des
 •Real-time weather updates by city name
 
 •Displays:
-
 (i)Temperature (°C)
-
 (ii)Weather condition (description)
-
 (iii)Feels-like temperature
-
 (iv)Humidity
-
 (v)Wind speed
 
 •Elegant UI with:
-
 (i)Glassmorphic input design
-
 (ii)Gold and blue aesthetic theme
-
 (iii)Animated twinkling stars background
-
 (iv)Smooth fade-in weather result animation
 
 •Custom app icon
@@ -48,134 +39,102 @@ The project demonstrates end-to-end mobile development, including Android UI des
 
 •Asynchronous network communication with robust timeout handling and retry-friendly design.
 
+---
 ##🛠️ Tech Stack
-#Frontend (Android)
 
+**Frontend (Android)**
 •Java
-
 •Android SDK
-
 •ConstraintLayout
-
 •Custom XML drawables
-
 •Animations (XML-based)
 
-#Networking
-
+**Networking**
 •OkHttp (for HTTP requests)
-
 •JSON handling with org.json
 
-#Backend
-
+**Backend**
 •Node.js
-
 •Express.js
-
 •Axios
 
-#External API
-
+**External API**
 •OpenWeather API
 
+---
 ##🔗 Architecture Overview
 
-1.User Input
-
+**1.User Input**
  •User enters a city name in the Android app.
 
-2.Android App
-
+**2.Android App**
  •Sends a POST request to a backend webhook using OkHttp.
-
  •Handles asynchronous responses safely on the UI thread.
 
-3.Backend Webhook
-
+**3.Backend Webhook**
  •Receives the request.
-
  •Extracts the city parameter.
-
  •Fetches real-time weather data from OpenWeather API.
-
  •Sends a formatted response back to the app.
 
-4.UI Update
-
+**4.UI Update**
  •Weather data is displayed with a fade-in animation for better user experience.
-
+ 
+---
 ##🎨 UI & UX Design
 
-•Theme: Night sky inspired blue with gold accents
+**•Theme:** Night sky inspired blue with gold accents
+**•Input:** Minimal, non-box styled glassmorphic city input
+**•Button:** Custom gold glow styling
+**•Result Display:** Oval glass-effect container that appears only when data is available
+**•Background:** Animated twinkling stars for visual depth
+**•Typography:** Elegant serif and cursive fonts for a premium feel
 
-•Input: Minimal, non-box styled glassmorphic city input
-
-•Button: Custom gold glow styling
-
-•Result Display: Oval glass-effect container that appears only when data is available
-
-•Background: Animated twinkling stars for visual depth
-
-•Typography: Elegant serif and cursive fonts for a premium feel
-
+---
 ##🔒 Error Handling
 
 •Network timeouts handled via OkHttp configuration
 
 •Graceful error messages for:
-
 (i)Network failures
-
 (ii)Invalid city names
-
 (iii)Backend errors
 
 •UI remains stable even during failed requests
 
+---
 ##🚀 Deployment
 
-Backend deployed using Render
+•Backend deployed using Render
 
-Android app tested on:
+•Android app tested on:
+(i)Emulator (API 35)
+(ii)Physical Android device
 
-Emulator (API 35)
+•App icon and branding finalized for real-device use
 
-Physical Android device
-
-App icon and branding finalized for real-device use
-
+---
 ##📈 Learning Outcomes
-
 This project demonstrates:
+•Android app lifecycle management
+•REST API integration
+•Backend webhook creation and deployment
+•Asynchronous networking
+•UI/UX design principles
+•Debugging real-world integration issues
+•End-to-end application ownership
 
-Android app lifecycle management
-
-REST API integration
-
-Backend webhook creation and deployment
-
-Asynchronous networking
-
-UI/UX design principles
-
-Debugging real-world integration issues
-
-End-to-end application ownership
-
+---
 ##📌 Future Enhancements
+•Location-based weather (GPS)
+•7-day forecast view
+•Light/Dark mode toggle
+•Offline caching
+•Multi-language support
 
-Location-based weather (GPS)
-
-7-day forecast view
-
-Light/Dark mode toggle
-
-Offline caching
-
-Multi-language support
-© Copyright
+---
+##© Copyright
 © 2025 Mahi.
 All rights reserved.
-© 2025 Mahi.
-All rights reserved.
+
+---
