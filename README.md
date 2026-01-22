@@ -9,12 +9,14 @@
 **-Language:** *Java*
 **-Backend:** *Node.js (Webhook)*
 **-API:** *OpenWeather API*
+
 ---
 ##📱 Project Overview
 
 Weather.ai is a lightweight Android application that provides real-time weather information for any city entered by the user. The app focuses on simplicity, elegance, and responsiveness, delivering accurate weather data through a clean and visually refined interface.
 
 The project demonstrates end-to-end mobile development, including Android UI design, API integration, backend communication, and deployment.
+
 ---
 ##✨ Features
 
