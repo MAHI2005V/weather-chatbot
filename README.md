@@ -20,26 +20,26 @@ The project demonstrates end-to-end mobile development, including Android UI des
 ---
 ## ✨ Features
 
--Real-time weather updates by city name
+1.Real-time weather updates by city name
 
--Displays:
-(i)Temperature (°C)
-(ii)Weather condition (description)
-(iii)Feels-like temperature
-(iv)Humidity
-(v)Wind speed
+2.Displays:
+-Temperature (°C)
+-Weather condition (description)
+-Feels-like temperature
+-Humidity
+-Wind speed
 
--Elegant UI with:
-(i)Glassmorphic input design
-(ii)Gold and blue aesthetic theme
-(iii)Animated twinkling stars background
-(iv)Smooth fade-in weather result animation
+3.Elegant UI with:
+-Glassmorphic input design
+-Gold and blue aesthetic theme
+-Animated twinkling stars background
+-Smooth fade-in weather result animation
 
--Custom app icon
+4.Custom app icon
 
--“About / Copyright” dialog integrated into the UI
+5.“About / Copyright” dialog integrated into the UI
 
--Asynchronous network communication with robust timeout handling and retry-friendly design.
+6.Asynchronous network communication with robust timeout handling and retry-friendly design.
 
 ---
 ## 🛠️ Tech Stack
