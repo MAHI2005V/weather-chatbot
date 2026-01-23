@@ -2,7 +2,7 @@
  <b><h1>Weather.ai</h1></b>
 </div>
 
-> *"A Minimalist Weather Assistant Android App"
+> *"A Minimalist Weather Assistant Android App"*
 
 **Developed by:** *Mahi*
 **Platform:** *Android*
@@ -20,26 +20,21 @@ The project demonstrates end-to-end mobile development, including Android UI des
 ---
 ##✨ Features
 
-•Real-time weather updates by city name
-
-•Displays:
+-Real-time weather updates by city name
+-Displays:
 (i)Temperature (°C)
 (ii)Weather condition (description)
 (iii)Feels-like temperature
 (iv)Humidity
 (v)Wind speed
-
-•Elegant UI with:
+-Elegant UI with:
 (i)Glassmorphic input design
 (ii)Gold and blue aesthetic theme
 (iii)Animated twinkling stars background
 (iv)Smooth fade-in weather result animation
-
-•Custom app icon
-
-•“About / Copyright” dialog integrated into the UI
-
-•Asynchronous network communication with robust timeout handling and retry-friendly design.
+-Custom app icon
+-“About / Copyright” dialog integrated into the UI
+-Asynchronous network communication with robust timeout handling and retry-friendly design.
 
 ---
 ##🛠️ Tech Stack
