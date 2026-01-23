@@ -18,26 +18,31 @@ Weather.ai is a lightweight Android application that provides real-time weather 
 The project demonstrates end-to-end mobile development, including Android UI design, API integration, backend communication, and deployment.
 
 ---
-##✨ Features
+## ✨ Features
 
 -Real-time weather updates by city name
+
 -Displays:
 (i)Temperature (°C)
 (ii)Weather condition (description)
 (iii)Feels-like temperature
 (iv)Humidity
 (v)Wind speed
+
 -Elegant UI with:
 (i)Glassmorphic input design
 (ii)Gold and blue aesthetic theme
 (iii)Animated twinkling stars background
 (iv)Smooth fade-in weather result animation
+
 -Custom app icon
+
 -“About / Copyright” dialog integrated into the UI
+
 -Asynchronous network communication with robust timeout handling and retry-friendly design.
 
 ---
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 **Frontend (Android)**
 •Java
@@ -59,7 +64,7 @@ The project demonstrates end-to-end mobile development, including Android UI des
 •OpenWeather API
 
 ---
-##🔗 Architecture Overview
+## 🔗 Architecture Overview
 
 **1.User Input**
  •User enters a city name in the Android app.
@@ -78,7 +83,7 @@ The project demonstrates end-to-end mobile development, including Android UI des
  •Weather data is displayed with a fade-in animation for better user experience.
  
 ---
-##🎨 UI & UX Design
+## 🎨 UI & UX Design
 
 **•Theme:** Night sky inspired blue with gold accents
 **•Input:** Minimal, non-box styled glassmorphic city input
@@ -88,7 +93,7 @@ The project demonstrates end-to-end mobile development, including Android UI des
 **•Typography:** Elegant serif and cursive fonts for a premium feel
 
 ---
-##🔒 Error Handling
+## 🔒 Error Handling
 
 •Network timeouts handled via OkHttp configuration
 
@@ -100,7 +105,7 @@ The project demonstrates end-to-end mobile development, including Android UI des
 •UI remains stable even during failed requests
 
 ---
-##🚀 Deployment
+## 🚀 Deployment
 
 •Backend deployed using Render
 
@@ -111,7 +116,7 @@ The project demonstrates end-to-end mobile development, including Android UI des
 •App icon and branding finalized for real-device use
 
 ---
-##📈 Learning Outcomes
+## 📈 Learning Outcomes
 This project demonstrates:
 •Android app lifecycle management
 •REST API integration
@@ -122,7 +127,7 @@ This project demonstrates:
 •End-to-end application ownership
 
 ---
-##📌 Future Enhancements
+## 📌 Future Enhancements
 •Location-based weather (GPS)
 •7-day forecast view
 •Light/Dark mode toggle
@@ -130,7 +135,7 @@ This project demonstrates:
 •Multi-language support
 
 ---
-##© Copyright
+## © Copyright
 © 2025 Mahi.
 All rights reserved.
 
